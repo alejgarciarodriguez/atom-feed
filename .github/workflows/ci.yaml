@@ -15,8 +15,7 @@ jobs:
       - name: Build and run
         run: |
           make build-app
-          echo ${{ github.workspace }}
-          docker image ls
+          ls -la
           docker run --volume=${{ github.workspace }}:/var/app alejgarciarodriguez/atom-feed:latest
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
