@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-
     <title>Daily WordReference</title>
     <link href="https://daily.wordreference.com/"/>
     <updated>{{ entries[0].updated }}</updated>
@@ -8,7 +7,6 @@
         <name>WordReference</name>
     </author>
     <id>id</id>
-
     {% for entry in entries %}
     <entry>
         <title>{{ entry.title }}</title>
@@ -18,5 +16,4 @@
         <summary>{{ entry.summary }}</summary>
     </entry>
     {% endfor %}
-
 </feed>
