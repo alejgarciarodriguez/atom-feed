@@ -19,6 +19,8 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
           git checkout -B feed
+          ls -la feed
+          ls -la
           git add feed/atom.xml
           git commit -m "update feed"
           git push origin feed
