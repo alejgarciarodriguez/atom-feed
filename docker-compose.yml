@@ -9,4 +9,16 @@ services:
     volumes:
       - ~/.composer:/.composer
       - .:/var/app
-      - ~/src:/var/app/repo
+    environment:
+      # The `client_host` below may optionally be replaced with `discover_client_host=yes`
+      # Add `start_with_request=yes` to start debug session on each request
+      XDEBUG_CONFIG: >-
+        client_host=host.docker.internal
+        idekey=PHPSTORM
+      XDEBUG_MODE: debug
+      # This should correspond to the server declared in PHPStorm `Preferences | Languages & Frameworks | PHP | Servers`
+      # Then PHPStorm will use the corresponding path mappings
+      PHP_IDE_CONFIG: serverName=symfony
+    extra_hosts:
+      # Ensure that host.docker.internal is correctly defined on Linux
+      - host.docker.internal:host-gateway

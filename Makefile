@@ -26,7 +26,7 @@ build: ## Builds the Docker images
 up: ## Start the docker hub in detached mode (no logs)
 	@$(DOCKER_COMP) up --detach
 
-start: build up ## Build and start the containers
+start: build up sh
 
 down: ## Stop the docker hub
 	@$(DOCKER_COMP) down --remove-orphans
