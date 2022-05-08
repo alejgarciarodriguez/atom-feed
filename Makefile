@@ -35,7 +35,7 @@ sh: ## Connect to the PHP FPM container
 	@$(PHP_CONT) sh
 
 build-app: ## Build app
-	docker build --tag alejgarciarodriguez/git-clone-anywhere:latest --target=app .
+	docker build --tag alejgarciarodriguez/atom-feed:latest --target=app .
 
 run: ## Execute as a binary
-	@docker run -it alejgarciarodriguez/git-clone-anywhere:latest $(c)
+	@docker run -it alejgarciarodriguez/atom-feed:latest $(c)
