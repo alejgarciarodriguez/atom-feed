@@ -1,13 +1,20 @@
 name: CI
 
 on:
-  push:
-    branches: [ master ]
+  schedule:
+    - cron: "0 1 * * *" # every day at 01:00
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: checkout
+        uses: actions/checkout@v3
       - name: Build the Docker image
         run: make build-app
+      - name: update feed
+        run: |
+          make run
+          git add feed.xml
+          git commit -m "update feed"
+          git push origin master
