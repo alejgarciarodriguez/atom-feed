@@ -17,6 +17,8 @@ jobs:
           docker build --tag alejgarciarodriguez/atom-feed:latest --target=app .
           docker run --volume=${{ github.workspace }}/feed:/var/app/feed alejgarciarodriguez/atom-feed:latest
           git checkout -B feed
+          git config --global user.email "<>"
+          git config --global user.name "github-actions[bot]"
           git add feed/atom.xml
           git commit -m "update feed"
           git push origin feed
