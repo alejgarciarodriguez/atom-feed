@@ -26,7 +26,9 @@ final class Spider extends BasicSpider
         $articlesData = $articles->each(function (Crawler $article) {
             $title = $article->filter('.post-header')->text();
             $link = $article->filter('.post-entry')->filter('a')->link()->getUri();
-            $updated = $article->filter('.post-meta')->text();
+            $updated = (new \DateTimeImmutable(
+                $article->filter('.post-meta')->text()
+            ))->format(DATE_ATOM);
             $id = $article->attr('id');
             return compact('id', 'title', 'link', 'updated');
         });
