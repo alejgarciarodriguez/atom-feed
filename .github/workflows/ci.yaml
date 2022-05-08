@@ -15,7 +15,7 @@ jobs:
       - name: Build and run
         run: |
           make build-app
-          docker run --volume=${{ github.workspace }}:/var/app ghcr.io/lejgarciarodriguez/atom-feed:latest
+          docker run --volume=${{ github.workspace }}:/var/app alejgarciarodriguez/atom-feed:latest
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
           git checkout feed
