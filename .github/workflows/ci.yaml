@@ -14,7 +14,7 @@ jobs:
         run: make build-app
       - name: update feed
         run: |
-          make run
+          docker run alejgarciarodriguez/atom-feed:latest
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
           git add feed.xml
