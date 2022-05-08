@@ -12,11 +12,10 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v3
-      - name: Build the Docker image
-        run: make build-app
-      - name: update feed
+      - name: Build and run
         run: |
-          docker run --volume=${{ github.workspace }}:/var/app alejgarciarodriguez/atom-feed:latest
+          make build-app
+          docker run --volume=${{ github.workspace }}:/var/app ghcr.io/lejgarciarodriguez/atom-feed:latest
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
           git checkout feed
