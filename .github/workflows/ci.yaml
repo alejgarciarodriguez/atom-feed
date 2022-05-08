@@ -14,9 +14,8 @@ jobs:
         uses: actions/checkout@v3
       - name: Build and run
         run: |
-          make build-app
-          ls -la
-          docker run --volume=${{ github.workspace }}:/var/app alejgarciarodriguez/atom-feed:latest
+          docker build --tag alejgarciarodriguez/atom-feed:latest --target=app .
+          docker run --volume=${{ github.workspace }}:/var/app alejgarciarodriguez/atom-feed:latest ls -la
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
           git checkout feed

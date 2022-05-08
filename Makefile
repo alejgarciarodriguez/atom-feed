@@ -33,9 +33,3 @@ down: ## Stop the docker hub
 
 sh: ## Connect to the PHP FPM container
 	@$(PHP_CONT) sh
-
-build-app: ## Build app
-	docker build --tag alejgarciarodriguez/atom-feed:latest --target=app .
-
-run: ## Execute as a binary
-	docker run --volume=$(pwd):/var/app alejgarciarodriguez/atom-feed:latest
