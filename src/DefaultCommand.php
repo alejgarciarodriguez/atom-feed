@@ -38,7 +38,7 @@ final class DefaultCommand extends Command
             );
         }
 
-        #Roach::collectSpider(Spider::class);
+        Roach::collectSpider(Spider::class);
 
         $data = $conn->executeQuery('SELECT * from articles')->fetchAllAssociative();
 
