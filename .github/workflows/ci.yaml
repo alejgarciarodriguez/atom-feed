@@ -1,8 +1,10 @@
 name: CI
 
 on:
+  push:
+    branches: [ master ]
   schedule:
-    - cron: "*/5 * * * *" # every day at 01:00
+    - cron: "0 * * * *" # every day at 01:00
 
 jobs:
   build:
@@ -17,6 +19,7 @@ jobs:
           docker run alejgarciarodriguez/atom-feed:latest
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
+          git checkout feed
           git add feed.xml
           git commit -m "update feed"
-          git push origin master
+          git push origin feed
