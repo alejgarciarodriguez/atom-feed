@@ -1,0 +1,22 @@
+{
+    "name": "alejgarciarodriguez/atom-feed",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alejgarciarodriguez\\AtomFeed\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "symfony/console": "^6.0",
+        "symfony/serializer": "^6.0",
+        "roach-php/core": "^1.0",
+        "symfony/filesystem": "^6.0",
+        "doctrine/dbal": "^3.3",
+        "twig/twig": "^3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}

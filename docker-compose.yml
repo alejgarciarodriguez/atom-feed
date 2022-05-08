@@ -1,0 +1,12 @@
+version: "3.4"
+
+services:
+  php:
+    build:
+      context: .
+      target: dev
+    restart: unless-stopped
+    volumes:
+      - ~/.composer:/.composer
+      - .:/var/app
+      - ~/src:/var/app/repo
