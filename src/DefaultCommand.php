@@ -46,7 +46,7 @@ final class DefaultCommand extends Command
         $twig = new Environment($loader);
 
         $render = $twig->render('atom.twig.xml', ['entries' => $data]);
-        file_put_contents('feed.xml', $render);
+        file_put_contents(__DIR__.'/../feed/atom.xml', $render);
 
         return self::SUCCESS;
     }

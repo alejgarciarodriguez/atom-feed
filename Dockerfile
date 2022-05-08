@@ -8,3 +8,4 @@ FROM dev as app
 
 COPY . .
 RUN composer install
+ENTRYPOINT ["bin/console"]
