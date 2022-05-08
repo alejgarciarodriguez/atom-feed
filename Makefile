@@ -38,4 +38,4 @@ build-app: ## Build app
 	docker build --tag alejgarciarodriguez/atom-feed:latest --target=app .
 
 run: ## Execute as a binary
-	docker run -it alejgarciarodriguez/atom-feed:latest
+	docker run --volume=$(pwd):/var/app alejgarciarodriguez/atom-feed:latest
