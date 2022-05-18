@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Daily WordReference</title>
-    <link href="https://daily.wordreference.com/"/>
+    <link rel="self" href="https://github.com/alejgarciarodriguez/atom-feed/blob/master/feed/atom.xml"/>
     <updated>{{ entries[0].updated }}</updated>
     <author>
         <name>WordReference</name>
     </author>
-    <id>id</id>
+    <link>https://daily.wordreference.com/"</link>
     {% for entry in entries %}
     <entry>
         <title>{{ entry.title }}</title>
