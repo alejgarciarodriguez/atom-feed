@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Daily WordReference</title>
     <link rel="self" href="https://github.com/alejgarciarodriguez/atom-feed/blob/master/feed/atom.xml"/>
-    <updated>2022-05-18T19:19:49+00:00</updated>
+    <updated>2022-05-18T19:34:22+00:00</updated>
     <author>
         <name>WordReference</name>
     </author>
@@ -10,6 +10,7 @@
         <entry>
         <title>Intermediate+ Word of the Day: swipe</title>
         <link href="https://daily.wordreference.com/2022/05/18/intermediate-word-of-the-day-swipe/"/>
+        <icon>https://i0.wp.com/daily.wordreference.com/wp-content/uploads/2019/04/swipe.jpg?resize=1024%2C681&amp;ssl=1</icon>
         <id>https://daily.wordreference.com/2022/05/18/intermediate-word-of-the-day-swipe/</id>
         <updated>2022-05-18T00:00:00+00:00</updated>
         <content type="html"><![CDATA[<div class="section word"><p>swipe 
@@ -21,6 +22,7 @@
         <entry>
         <title>Basic+ Word of the Day: step</title>
         <link href="https://daily.wordreference.com/2022/05/18/basic-word-of-the-day-step/"/>
+        <icon>https://i0.wp.com/daily.wordreference.com/wp-content/uploads/2018/01/step.jpg?resize=730%2C479&amp;ssl=1</icon>
         <id>https://daily.wordreference.com/2022/05/18/basic-word-of-the-day-step/</id>
         <updated>2022-05-18T00:00:00+00:00</updated>
         <content type="html"><![CDATA[<div class="section word"><p>step 
@@ -30,6 +32,7 @@
         <entry>
         <title>Intermediate+ Word of the Day: grate</title>
         <link href="https://daily.wordreference.com/2022/05/17/intermediate-word-of-the-day-grate/"/>
+        <icon>https://i0.wp.com/daily.wordreference.com/wp-content/uploads/2019/04/grate.jpg?resize=1024%2C681&amp;ssl=1</icon>
         <id>https://daily.wordreference.com/2022/05/17/intermediate-word-of-the-day-grate/</id>
         <updated>2022-05-17T00:00:00+00:00</updated>
         <content type="html"><![CDATA[<div class="section word"><p>grate 
@@ -41,6 +44,7 @@
         <entry>
         <title>Basic+ Word of the Day: stretch</title>
         <link href="https://daily.wordreference.com/2022/05/17/basic-word-of-the-day-stretch/"/>
+        <icon>https://i0.wp.com/daily.wordreference.com/wp-content/uploads/2018/01/stretch.jpg?resize=724%2C483&amp;ssl=1</icon>
         <id>https://daily.wordreference.com/2022/05/17/basic-word-of-the-day-stretch/</id>
         <updated>2022-05-17T00:00:00+00:00</updated>
         <content type="html"><![CDATA[<div class="section word"><p>stretch 
@@ -50,6 +54,7 @@
         <entry>
         <title>Intermediate+ Word of the Day: foil</title>
         <link href="https://daily.wordreference.com/2022/05/16/intermediate-word-of-the-day-foil/"/>
+        <icon>https://i0.wp.com/daily.wordreference.com/wp-content/uploads/2019/04/foil.jpg?resize=1024%2C765&amp;ssl=1</icon>
         <id>https://daily.wordreference.com/2022/05/16/intermediate-word-of-the-day-foil/</id>
         <updated>2022-05-16T00:00:00+00:00</updated>
         <content type="html"><![CDATA[<div class="section word"><p>foil 
@@ -61,6 +66,7 @@
         <entry>
         <title>Basic+ Word of the Day: ink</title>
         <link href="https://daily.wordreference.com/2022/05/16/basic-word-of-the-day-ink/"/>
+        <icon>https://i0.wp.com/daily.wordreference.com/wp-content/uploads/2018/01/ink.jpg?resize=724%2C483&amp;ssl=1</icon>
         <id>https://daily.wordreference.com/2022/05/16/basic-word-of-the-day-ink/</id>
         <updated>2022-05-16T00:00:00+00:00</updated>
         <content type="html"><![CDATA[<div class="section word"><p>ink 
@@ -70,6 +76,7 @@
         <entry>
         <title>Intermediate+ Word of the Day: slum</title>
         <link href="https://daily.wordreference.com/2022/05/13/intermediate-word-of-the-day-slum/"/>
+        <icon>https://i0.wp.com/daily.wordreference.com/wp-content/uploads/2019/04/slum.jpg?resize=892%2C538&amp;ssl=1</icon>
         <id>https://daily.wordreference.com/2022/05/13/intermediate-word-of-the-day-slum/</id>
         <updated>2022-05-13T00:00:00+00:00</updated>
         <content type="html"><![CDATA[<div class="section word"><p>slum 
@@ -81,6 +88,7 @@
         <entry>
         <title>Basic+ Word of the Day: lid</title>
         <link href="https://daily.wordreference.com/2022/05/13/basic-word-of-the-day-lid/"/>
+        <icon>https://i0.wp.com/daily.wordreference.com/wp-content/uploads/2018/01/lid.jpg?resize=841%2C415&amp;ssl=1</icon>
         <id>https://daily.wordreference.com/2022/05/13/basic-word-of-the-day-lid/</id>
         <updated>2022-05-13T00:00:00+00:00</updated>
         <content type="html"><![CDATA[<div class="section word"><p>lid 
@@ -90,6 +98,7 @@
         <entry>
         <title>Intermediate+ Word of the Day: bench</title>
         <link href="https://daily.wordreference.com/2022/05/12/intermediate-word-of-the-day-bench/"/>
+        <icon>https://i0.wp.com/daily.wordreference.com/wp-content/uploads/2019/04/bench.jpg?resize=1024%2C681&amp;ssl=1</icon>
         <id>https://daily.wordreference.com/2022/05/12/intermediate-word-of-the-day-bench/</id>
         <updated>2022-05-12T00:00:00+00:00</updated>
         <content type="html"><![CDATA[<div class="section word"><p>bench 
@@ -101,6 +110,7 @@
         <entry>
         <title>Basic+ Word of the Day: lack</title>
         <link href="https://daily.wordreference.com/2022/05/12/basic-word-of-the-day-lack/"/>
+        <icon>https://i0.wp.com/daily.wordreference.com/wp-content/uploads/2018/01/lack.jpg?resize=788%2C443&amp;ssl=1</icon>
         <id>https://daily.wordreference.com/2022/05/12/basic-word-of-the-day-lack/</id>
         <updated>2022-05-12T00:00:00+00:00</updated>
         <content type="html"><![CDATA[<div class="section word"><p>lack 

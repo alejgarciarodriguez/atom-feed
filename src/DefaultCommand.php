@@ -32,7 +32,8 @@ final class DefaultCommand extends Command
                 title text,
                 updated text,
                 summary text,
-                link text
+                link text,
+                icon text
             );
             SQL
             );
