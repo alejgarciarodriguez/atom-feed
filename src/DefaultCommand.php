@@ -45,7 +45,8 @@ final class DefaultCommand extends Command
         $loader = new FilesystemLoader( __DIR__ . '/../templates/');
         $twig = new Environment($loader);
 
-        $render = $twig->render('atom.twig.xml', ['entries' => $data]);
+        $lastUpdated = (new \DateTime())->format(\DateTime::ATOM);
+        $render = $twig->render('atom.twig.xml', ['entries' => $data, 'last_updated' => $lastUpdated]);
         file_put_contents(__DIR__.'/../feed/atom.xml', $render);
 
         return self::SUCCESS;
