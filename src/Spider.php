@@ -43,7 +43,7 @@ final class Spider extends BasicSpider
     {
         $article = $response->filter('div[id=main] article');
         $id = $article->attr('id');
-        $summary = $article->filter('.post-entry')->text();
+        $summary = $article->filter('.post-entry')->html();
         yield $this->item(compact('id', 'summary'));
     }
 }
