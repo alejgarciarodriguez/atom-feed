@@ -27,14 +27,11 @@ final class ArticleProcessor implements ItemProcessorInterface
                 'id' => $item->get('id'),
             ]);
         } else {
-            $conn->executeStatement('UPDATE articles 
-            SET title=:title, updated=:updated, link=:link, icon=:icon 
-                WHERE id=:id', [
+            $conn->executeStatement('UPDATE articles SET title=:title, updated=:updated, link=:link WHERE id=:id', [
                 'title' => $item->get('title'),
                 'updated' => $item->get('updated'),
                 'link' => $item->get('link'),
                 'id' => $item->get('id'),
-                'icon' => $item->get('icon'),
             ]);
         }
 
